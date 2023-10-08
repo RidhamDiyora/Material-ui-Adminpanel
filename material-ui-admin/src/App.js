@@ -38,16 +38,6 @@ const rows = [
   { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
 ];
 
-const columns1 = [
-  { field: 'id', headerName: 'ID', width: 70 },
-  { field: 'firstName', headerName: 'First name', width: 130 },
-];
-
-const rows1 = [
-  { id: 1, firstName: 'John' },
-  { id: 2, firstName: 'Jane' },
-];
-
 
 function App() {
   return (
@@ -65,17 +55,7 @@ function App() {
                     {/* Add more table names as needed */}
                   </div>
                 </Grid>
-                  {/* Add the right side Grid item for the DataGrid */}
-                <Grid item xs={9}>
-                    <div style={{ height: 400, width: '100%' }}>
-                      <DataGrid
-                        rows={rows1}
-                        columns={columns1}
-                        pageSize={5}
-                      />
-                    </div>
-              </Grid>
-              <Grid item xs={5}>
+              <Grid item xs={9}>
                 <div>
                   <DataGrid
                     rows={rows}
