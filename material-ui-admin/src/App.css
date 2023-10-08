@@ -1,0 +1,25 @@
+.plus-sign {
+  position: absolute;
+  right: 0;
+  top: 50%; /* Adjust this value to vertically center the plus sign */
+  transform: translateY(-50%); /* Vertically center the plus sign */
+  background-color: #007bff; /* Background color of the plus sign */
+  color: #fff; /* Text color of the plus sign */
+  width: 30px; /* Adjust width and height as needed */
+  height: 30px;
+  border-radius: 50%; /* Make it a circle */
+  text-align: center; /* Center the plus sign horizontally */
+  font-size: 24px; /* Adjust the font size as needed */
+  cursor: pointer; /* Add a pointer cursor for interaction */
+}
+
+
+
+
+
+
+
+
+
+
+
