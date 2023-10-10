@@ -49,9 +49,9 @@ function App() {
               </Stack> */}
               <Grid item xs={3}>
                   <div>
-                    <h3>Customer management</h3>
-                    <h3>Asset Management</h3>
-                    <h3>Device/sensor Management</h3>
+                    <h3 style={{marginLeft : '7px'}}>Customer management</h3>
+                    <h3 style={{marginLeft : '7px'}}>Asset Management</h3>
+                    <h3 style={{marginLeft : '7px'}}>Device/sensor Management</h3>
                     {/* Add more table names as needed */}
                   </div>
                 </Grid>
@@ -60,7 +60,7 @@ function App() {
                   <DataGrid
                     rows={rows}
                     columns={columns}
-                    style={{ height: 400, width: '100%' }}
+                    style={{ height: '100%', width: '100%'}}
                     initialState={{
                       pagination: {
                         paginationModel: { page: 0, pageSize: 5 },
